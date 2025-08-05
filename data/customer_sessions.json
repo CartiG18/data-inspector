@@ -1,0 +1,42 @@
+[
+  {
+    "customer_id": "cust_001",
+    "session_id": "sess_xyz789",
+    "login_time": "2025-07-30T08:55:00Z",
+    "logout_time": "2025-07-30T10:10:00Z",
+    "user_context": {
+      "account_tier": "enterprise",
+      "department": "HR",
+      "region": "US-West"
+    },
+    "session_stats": {
+      "videos_watched": 3,
+      "total_watch_time": 735,
+      "avg_engagement_score": 78.5
+    },
+    "audit_flags": {
+      "suspicious_activity": false,
+      "vpn_detected": true
+    }
+  },
+  {
+    "customer_id": "cust_002",
+    "session_id": "sess_lmn456",
+    "login_time": "2025-07-30T11:00:00Z",
+    "logout_time": "2025-07-30T11:50:00Z",
+    "user_context": {
+      "account_tier": "pro",
+      "department": "Sales",
+      "region": "US-Central"
+    },
+    "session_stats": {
+      "videos_watched": 1,
+      "total_watch_time": 189,
+      "avg_engagement_score": 63.2
+    },
+    "audit_flags": {
+      "suspicious_activity": false,
+      "vpn_detected": false
+    }
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "customer_id": "cust_001",
+    "event_id": "evt_123abc",
+    "meeting_id": "mtg_456xyz",
+    "timestamp": "2025-07-30T09:00:00Z",
+    "device_info": {
+      "ip_address": "10.0.0.22",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0)"
+    },
+    "network_metrics": {
+      "latency_ms": 45,
+      "packet_loss_pct": 0.03,
+      "bandwidth_mbps": 5.8
+    },
+    "quality_flags": {
+      "jitter_exceeded": false,
+      "dropped_frames": 12
+    }
+  },
+  {
+    "customer_id": "cust_002",
+    "event_id": "evt_789def",
+    "meeting_id": "mtg_777aaa",
+    "timestamp": "2025-07-30T11:10:00Z",
+    "device_info": {
+      "ip_address": "172.16.0.101",
+      "user_agent": "Safari/605.1.15 (iOS)"
+    },
+    "network_metrics": {
+      "latency_ms": 23,
+      "packet_loss_pct": 0.00,
+      "bandwidth_mbps": 3.2
+    },
+    "quality_flags": {
+      "jitter_exceeded": false,
+      "dropped_frames": 4
+    }
+  }
+]

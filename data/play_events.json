@@ -1,0 +1,50 @@
+[
+  {
+    "customer_id": "cust_001",
+    "play_id": "play_a1b2c3",
+    "timestamp": "2025-07-30T09:12:00Z",
+    "meta_info": {
+      "device_type": "desktop",
+      "os_version": "Windows 10",
+      "location": "Los Angeles, CA"
+    },
+    "engagement_stats": {
+      "duration_seconds": 315,
+      "pause_count": 2,
+      "fullscreen_time": 120
+    },
+    "content_data": {
+      "video_id": "vid_0099",
+      "category": "training",
+      "title": "Compliance Basics"
+    },
+    "network_flags": {
+      "buffer_events": 3,
+      "adaptive_streaming": true
+    }
+  },
+  {
+    "customer_id": "cust_002",
+    "play_id": "play_d4e5f6",
+    "timestamp": "2025-07-30T11:45:00Z",
+    "meta_info": {
+      "device_type": "tablet",
+      "os_version": "iOS 16.5",
+      "location": "Chicago, IL"
+    },
+    "engagement_stats": {
+      "duration_seconds": 189,
+      "pause_count": 0,
+      "fullscreen_time": 0
+    },
+    "content_data": {
+      "video_id": "vid_1021",
+      "category": "marketing",
+      "title": "Quarterly Update Q2"
+    },
+    "network_flags": {
+      "buffer_events": 1,
+      "adaptive_streaming": false
+    }
+  }
+]
